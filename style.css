@@ -349,6 +349,7 @@ header.container.limit .row{
 .container.limit .row.socialmedia{
   padding:0;
   margin-bottom:30px;
+  padding-top: 30px
 }
 .container .row{
   float:left;
