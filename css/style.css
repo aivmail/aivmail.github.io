@@ -51,7 +51,7 @@ h1 {
         display: block;
         width: 300px;
         height: 50px;
-        background: url("assets/logo.png") no-repeat;
+        background: url("./assets/logo.png") no-repeat;
         background-size: contain;
 }
 a {
@@ -993,5 +993,5 @@ footer .col{
     left: 0;
   }
   #footer{ position: fixed; right: 100px; bottom: 100px; display: block; width: 300px; height: 50px; }
-  #footer a{ margin-left: 20px; }
+  #footer a { margin-left: 20px; }
 }
