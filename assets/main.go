@@ -92,11 +92,11 @@ func main() {
 	path := filepath.Dir(os.Args[0]) + pathSeparator + "image" + pathSeparator
 	for {
 		if page == 1 {
-			url = "https://mmzztt.com/beauty/"
+			url = "https://okmzt.xyz/beauty/"
 			referer = url
 		} else {
 			referer = url
-			url = "https://mmzztt.com/beauty/page/" + fmt.Sprintf("%d", page)
+			url = "https://okmzt.xyz/beauty/page/" + fmt.Sprintf("%d", page)
 		}
 		resp, status := getData(url)
 		if status != "200" {
